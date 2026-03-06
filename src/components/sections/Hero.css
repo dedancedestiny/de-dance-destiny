@@ -164,3 +164,24 @@
 }
 
 }
+
+@media (max-width:768px){
+
+.hero{
+  padding:100px 20px 60px;
+  min-height:auto;
+}
+
+.hero h1{
+  font-size:26px;
+}
+
+.hero p{
+  font-size:14px;
+}
+
+.hero-gallery{
+  grid-template-columns:repeat(2,1fr);
+}
+
+}

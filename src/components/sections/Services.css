@@ -87,3 +87,24 @@
 }
 
 }
+
+@media (max-width:768px){
+
+.services-title{
+  font-size:24px;
+}
+
+.services-subtitle{
+  font-size:14px;
+  padding:0 10px;
+}
+
+.services-grid{
+  grid-template-columns:1fr;
+}
+
+.service-card{
+  padding:25px 20px;
+}
+
+}

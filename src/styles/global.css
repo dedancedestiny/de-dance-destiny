@@ -11,8 +11,95 @@
 html, body {
   width: 100%;
   overflow-x: hidden;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
   font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #111;
 }
 
+/* Images responsive */
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Sections spacing */
+
+.section {
+  padding: 80px 5%;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Buttons */
+
+button, .btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 1024px){
+
+  .section{
+    padding:70px 30px;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  .section{
+    padding:60px 20px;
+  }
+
+  h1{
+    font-size:28px;
+    line-height:1.3;
+  }
+
+  h2{
+    font-size:24px;
+  }
+
+  p{
+    font-size:14px;
+    line-height:1.6;
+  }
+
+}
+
+@media (max-width: 480px){
+
+  h1{
+    font-size:24px;
+  }
+
+  h2{
+    font-size:20px;
+  }
+
+  p{
+    font-size:13px;
+  }
+
+}

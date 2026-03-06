@@ -93,3 +93,13 @@
   }
 
 }
+
+@media (max-width:768px){
+
+.footer{
+  text-align:center;
+  font-size:13px;
+  padding:25px 15px;
+}
+
+}

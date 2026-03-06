@@ -151,3 +151,11 @@ font-size:28px;
 }
 
 }
+
+@media (max-width:768px){
+
+.map-wrapper iframe{
+  height:300px;
+}
+
+}

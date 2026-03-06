@@ -75,3 +75,12 @@ transition:0.3s;
 background:#e61c55;
 transform:translateY(-3px);
 }
+
+@media (max-width:768px){
+
+.instagram-grid{
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+
+}
