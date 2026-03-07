@@ -8,7 +8,7 @@ function Hero() {
 
       <div className="hero-container">
 
-        <p className="hero-tag">IGNITE PASSION • MOVE</p>
+        <p className="hero-tag">IGNITE • PASSION • MOVE</p>
 
         <h1 className="hero-title">
           Chennai’s Most <span>Energetic</span> Dance Academy
